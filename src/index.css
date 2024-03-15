@@ -1,0 +1,72 @@
+/* General styles */
+p,h4,input,h1,button,h5,hr{
+    margin-left: 200px;
+}
+/* header styles */
+img[alt="logo"]{
+    width: 150px;
+    margin: -10px 200px;
+}
+/* Main styles */
+main{
+    display: flex;
+  }
+
+h1 {
+    color: #b24020;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+/* Form styles */
+input{
+    padding: 10px;
+    width: 320px;
+    height: 20px;
+    border-radius: 5px;
+    border-style: double;
+}
+
+input::placeholder {
+    color: #0a66c2;
+    font-weight: bold;
+    text-align: right;
+  }
+
+p{
+    font-size: smaller;
+    font-weight: bold;
+    color: #000000bf;
+}
+h4{
+    color: #0a66c2;
+}
+
+/* Privacy Policy - styles */
+  span{
+    color: #0a66c2;
+  }
+  h5{
+    color: #00000099;
+  }
+  hr{
+    margin-top: 20PX;
+    width: 350px;
+  }
+
+  /* Button styles */
+  button {
+    width: 350px;
+    height: 40px; 
+    border-radius: 200px;
+    border: transparent;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #0a66c2;
+  }
+/* Banner Styles  */
+  img{
+    width: 45%;
+  }
